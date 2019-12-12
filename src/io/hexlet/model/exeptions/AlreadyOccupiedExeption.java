@@ -1,4 +1,4 @@
 package io.hexlet.model.exeptions;
 
-public class AlreadyOccupiedExeption {
+public class AlreadyOccupiedExeption extends BaseXOExeption {
 }
