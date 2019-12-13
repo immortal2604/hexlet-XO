@@ -1,4 +1,4 @@
 package io.hexlet.model.exeptions;
 
-public abstract class BaseXOExeption {
+public abstract class BaseXOExeption extends Exception {
 }
