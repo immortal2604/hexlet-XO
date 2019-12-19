@@ -1,4 +1,4 @@
-package io.hexlet.model.model;
+package io.hexlet.model;
 
 public class Point {
 
@@ -6,11 +6,13 @@ public class Point {
 
     private final int y;
 
-    public int getX() {
+    public int getX()
+    {
         return x;
     }
 
     public int getY() {
+
         return y;
     }
 

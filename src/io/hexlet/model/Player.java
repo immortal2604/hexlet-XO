@@ -1,4 +1,4 @@
-package io.hexlet.model.model;
+package io.hexlet.model;
 
 public class Player {
 
@@ -7,10 +7,12 @@ public class Player {
     private final Figure figure;
 
     public String getName() {
+
         return name;
     }
 
     public Figure getFigure() {
+
         return figure;
     }
 
