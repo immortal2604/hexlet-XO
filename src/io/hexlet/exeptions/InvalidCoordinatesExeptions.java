@@ -1,4 +1,4 @@
-package io.hexlet.model.exeptions;
+package io.hexlet.exeptions;
 
 public class InvalidCoordinatesExeptions extends BaseXOExeption {
 }

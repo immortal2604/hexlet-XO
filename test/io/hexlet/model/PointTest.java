@@ -1,4 +1,4 @@
-package io.hexlet.model.model;
+package io.hexlet.model;
 
 import org.junit.Test;
 
