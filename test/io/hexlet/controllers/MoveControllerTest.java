@@ -36,23 +36,22 @@ public class MoveControllerTest {
         final MoveController moveController = new MoveController();
         try {
             moveController.applyFigure(field, figure, point);
-        } catch (InvalidCoordinatesExeptions e) {
-            e.printStackTrace();
-        } catch (AlreadyOccupiedExeption e) {
+        } catch (InvalidCoordinatesExeptions | AlreadyOccupiedExeption e) {
             e.printStackTrace();
         }
+
     }
 
     @Test
     public void applyFigureInvalidXcoordinate() {
         final Field field = new Field();
         final Figure figure = Figure.X;
-        final Point point = new Point(3,2);
+        final Point point = new Point(3, 2);
 
         final MoveController moveController = new MoveController();
         try {
             moveController.applyFigure(field, figure, point);
-        } catch (InvalidCoordinatesExeptions e) {
+        } catch (InvalidCoordinatesExeptions | AlreadyOccupiedExeption e) {
             e.printStackTrace();
         }
     }
@@ -66,7 +65,7 @@ public class MoveControllerTest {
         final MoveController moveController = new MoveController();
         try {
             moveController.applyFigure(field, figure, point);
-        } catch (InvalidCoordinatesExeptions e) {
+        } catch (InvalidCoordinatesExeptions | AlreadyOccupiedExeption e) {
             e.printStackTrace();
         }
     }
