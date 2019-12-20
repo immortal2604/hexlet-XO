@@ -28,6 +28,6 @@ public class MoveController {
 
     private boolean coordinatesCheck(final Field field, final Point point){
 
-        return point.getX() >= 0 && point.getX() <= field.getFieldSize() && point.getY() >= 0 && point.getY() <= field.getFieldSize();
+        return point.getX() >= 0 && point.getX() < field.getFieldSize() && point.getY() >= 0 && point.getY() < field.getFieldSize();
     }
 }
